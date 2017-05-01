@@ -407,7 +407,6 @@ img {
             display: block;
             height: 140px;
             width: 252px;
-            background: yellow;
             overflow: hidden;
             position: relative; }
             .container .tech .tech-l .panel .panel-body .panel-img img {
@@ -562,6 +561,15 @@ img {
           height: 35px;
           width: 100%;
           background-color: #278198; }
+        .container .school .school-r .school-detail .item {
+          height: 355px;
+          width: 290px; }
+          .container .school .school-r .school-detail .item a {
+            display: block;
+            height: 197px;
+            width: 290px; }
+            .container .school .school-r .school-detail .item a img {
+              height: 197px; }
         .container .school .school-r .school-detail .school-con {
           height: 158px;
           width: 290px;
@@ -586,8 +594,9 @@ img {
           .container .school .school-r .school-detail .school-con .school-con-btn {
             width: 100%;
             padding: 15px 5px; }
-            .container .school .school-r .school-detail .school-con .school-con-btn a {
+            .container .school .school-r .school-detail .school-con .school-con-btn .btn {
               display: block;
+              height: 35px;
               width: 30%;
               text-align: center;
               border: 1px solid #000; }

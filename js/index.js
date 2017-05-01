@@ -19,13 +19,14 @@ $('.star-carouselr').carousel({
 // 学校活动
 $(".setting-list").kxbdMarquee();
 
-// 优秀教师展示
-//$('#setting-tech').scrollbox({
-//  direction: 'h',
-//  distance: 239,
-//  speed: 100
-//});
-
+// 图片的懒加载
+$(document).ready( 
+    function($){ 
+        $("img.lazy").lazyload({ 
+        effect: "fadeIn",
+        threshold :50
+    }); 
+});
 // 开班信息不间断滚动
 $('#panel-b-r').scrollbox({
     linear: true,

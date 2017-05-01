@@ -500,7 +500,6 @@ img{
                         display: block;
                         height: 140px;
                         width: 252px;
-                        background: yellow;
                         overflow: hidden;
                         position: relative;
                         img{
@@ -696,7 +695,18 @@ img{
                     width: 100%;
                     background-color: #278198;
                 }
-
+                .item{
+                    height: 355px;
+                    width: 290px;
+                    a{
+                        display: block;
+                        height: 197px;
+                        width: 290px;
+                        img{
+                            height: 197px;
+                        }
+                    }
+                }
 
                 .school-con {
                     height: 158px;
@@ -724,8 +734,9 @@ img{
                     .school-con-btn{
                         width: 100%;
                         padding: 15px 5px;
-                        a{
+                        .btn{
                             display: block;
+                            height: 35px;
                             width: 30%;
                             text-align: center;
                             border: 1px solid #000;
