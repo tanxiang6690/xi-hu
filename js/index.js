@@ -19,21 +19,16 @@ $('.star-carouselr').carousel({
 // 学校活动
 $(".setting-list").kxbdMarquee();
 
-// 图片的懒加载
-$(document).ready( 
-    function($){ 
-        $("img.lazy").lazyload({ 
-        effect: "fadeIn",
-        threshold :50
-    }); 
+// 就业明星
+$(".setting-star-list").kxbdMarquee();
+
+// 优秀教师展示
+$('#setting-tech').scrollbox({
+    direction: 'h',
+    distance: 239,
+    speed: 100
 });
-// 开班信息不间断滚动
-$('#panel-b-r').scrollbox({
-    linear: true,
-    step: 1,
-    delay: 0,
-    speed: 50
-});
+
 
 
 
@@ -77,7 +72,9 @@ function itemUp (obj, obj1, obj2, speed) {
 }
 
 $(function(){
-    // 就业信息表不间断滚动
+    // 开班信息不间断滚动
+    itemUp("panel-b-r","scroll-item", "scroll-item2", 40);
+    //
     itemUp("tech-scroll","tech-scroll-item", "tech-scroll-item2", 40);
 })
 
